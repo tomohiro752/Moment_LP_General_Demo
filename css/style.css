@@ -1496,6 +1496,93 @@ footer {
 }
 
 
+/* 営業支援 */
+
+.step1 {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 40px 16px;
+}
+
+.step1::before {
+    font-size: 48px;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.support-content1 {
+    width: 100%;
+}
+
+.tagline-point {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.tagline1, .tagline-content1, .support-content1 ul li {
+    font-size: 1.4rem;
+}
+
+.tagline-point1 {
+    font-size: 1.8rem;
+}
+
+.support-content1 ul {
+    align-items: center;
+}
+
+
+.step2 {
+    flex-direction: column-reverse;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 72px 16px 40px 16px;
+}
+
+.step2::before {
+    font-size: 48px;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.support-content2 {
+    width: 100%;
+}
+
+.tagline2, .tagline-content, .support-content ul li {
+    font-size: 1.4rem;
+}
+
+.tagline-point2 {
+    font-size: 1.8rem;
+}
+
+.support-content ul {
+    align-items: center;
+}
+
+
+
+
+.step3 {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    text-align: center;
+    padding: 72px 16px;
+}
+
+.step3::before {
+    font-size: 48px;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 
 
@@ -1525,8 +1612,13 @@ footer {
     margin-top: 16px;
 }
 
+.verification-content1 {
+    padding-inline: 16px;
+}
+
 .verification-content2,.verification-content3 {
     padding-top: 32px;
+    padding-inline: 16px;
     margin: 0;
 }
 
