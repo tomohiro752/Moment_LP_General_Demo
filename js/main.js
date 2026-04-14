@@ -14,7 +14,7 @@ $(function () {
 
 
 /*=================================================
-  カード scale
+  カード fade-up
   ===================================================*/
 
   $(window).on('scroll', function(){
@@ -31,11 +31,38 @@ $(function () {
 
   });
 
+/*=================================================
+  検証 fade in
+===================================================*/
+
+const parent = document.querySelector(".fade-parent");
+
+const observer = new IntersectionObserver((entries) => {
+  if (entries[0].isIntersecting) {
+    const items = parent.querySelectorAll(".fade-child");
+
+    items.forEach((el, i) => {
+      setTimeout(() => {
+        el.classList.add("show");
+      }, i * 150);
+    });
+  }
+}, { threshold: 0.2 });
+
+observer.observe(parent);
 
 
+/*=================================================
+  header 切り替え
+===================================================*/
 
-
-
+$(window).on('scroll', function () {
+  if ($(this).scrollTop() > 200) {
+    $('#header').addClass('is-scrolled');
+  } else {
+    $('#header').removeClass('is-scrolled');
+  }
+});
 
 
 })
