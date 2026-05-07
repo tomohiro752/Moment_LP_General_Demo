@@ -65,7 +65,24 @@ $(window).on('scroll', function () {
 });
 
 
+/*=================================================
+  FV TEXT fadein
+===================================================*/
+
+$(window).on("load", function () {
+  setTimeout(function () {
+    $(".fv-text, .fv-subtext, .access-btn").addClass("is-show");
+  }, 1200);
+});
+
 })
 
+/*=================================================
+  FV 背景 fadein
+===================================================*/
 
-
+$(window).on("load", function () {
+  setTimeout(function () {
+    $(".fv-mask").addClass("is-hide");
+  }, 600);
+});

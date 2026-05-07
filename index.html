@@ -29,7 +29,7 @@
                 <ul class="nav-list">
                     <li><a href="#feature">momentの特徴</a></li>
                     <li><a href="#voice">導入事例</a></li>
-                    <li class="btn"><a href="#contact">無料相談はこちら</a></li>
+                    <li><a class="btn" href="#contact">無料相談はこちら</a></li>
                 </ul>
             </nav>
         </div>
@@ -44,13 +44,14 @@
             <ul class="hamburger-nav-list">
                 <li><a href="#feature">momentの特徴</a></li>
                 <li><a href="#voice">導入事例</a></li>
-                <li class="btn"><a href="#contact">無料相談はこちら</a></li>
+                <li><a class="btn" href="#contact">無料相談はこちら</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section class="fv">
+             <div class="fv-mask"></div>
             <h1 class="fv-text">
                 営業人員不足や、<br>
                 新規営業の打ち手に<br>
@@ -61,20 +62,7 @@
                 成約につながる営業の勝ち筋を見極め、再現できる営業プロセスを設計します。
             </p>
             
-            <div class="access-btn"><a href="#">無料相談はこちらから</a>
-                <!-- From Uiverse.io by alexmaracinaru -->
-                <button>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 74 74" height="34" width="34">
-                        <circle stroke-width="5" stroke="white" r="35.5" cy="37" cx="37"></circle>
-                        <path fill="white"
-                            d="M25 37 H48 M48 37 L40 29 M48 37 L40 45"
-                            stroke="currentColor"
-                            stroke-width="5"
-                            stroke-linecap="round"
-                            stroke-linejoin="round">
-                        </path>
-                    </svg>
-                </button>
+            <div><a class="access-btn" href="#">無料相談はこちらから   &gt;</a>
             </div>
 
         </section>
@@ -244,20 +232,8 @@
                             <br>現状を整理しながら、
                             <br>改善の優先順位を一緒に考えます。
                         </p>
-                        <div class="cta-access-btn fade-up"><a href="#contact">無料相談はこちらから</a>
-                        <!-- From Uiverse.io by alexmaracinaru -->
-                            <button>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 74 74" height="34" width="34">
-                                    <circle stroke-width="5" stroke="white" r="35.5" cy="37" cx="37"></circle>
-                                    <path fill="white"
-                                        d="M25 37 H48 M48 37 L40 29 M48 37 L40 45"
-                                        stroke="currentColor"
-                                        stroke-width="5"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round">
-                                    </path>
-                                </svg>
-                            </button>
+                        <div>
+                            <a class="cta-access-btn fade-up" href="#contact">無料相談はこちらから &gt;</a>
                         </div>
                     </div>
                 </div>
@@ -305,9 +281,10 @@
                             <tbody>
                                 <tr class="plan-cost">
                                     <th>月額費用</th>
-                                    <td>80,000<span>円</span></td>
-                                    <td>200,000〜350,000<span>円</span></td>
-                                    <td>450,000<span>円</span></td>
+                                    <td colspan="3">80,000<span>円~<br>
+                                        業界・ターゲットやKPIに応じて個別にお見積もりします!</span></td>
+                                    <!-- <td>200,000〜350,000<span>円</span></td>
+                                    <td>450,000<span>円</span></td> -->
                                 </tr>
 
                                 <tr>
@@ -394,12 +371,13 @@
         <section class="flow">
             <h2 class="section-title fade-up">導入から運用までの流れ</h2>
             <p class="section-subtext fade-up">
-                実際には以下の流れでサービスをご提供いたします。
+                実際には以下の流れでサービスをご提供いたします。<br>
+                最短２週間で稼働開始ですが、お急ぎの場合はご相談可能となります。
             </p>
             <div class="flow-wrapper fade-up">
                 <ol class="flow-grid-upper">
                     <li class="flow-item-upper fade-up">
-                        <p class="flow-timeline">ご契約</p>
+                        <p class="flow-timeline">まずはご相談ください</p>
                         <img src="img/flow_hearing.png" alt="">
                         <h3 class="flow-item-title">無料ヒアリング</h3>
                         <ul class="flow-item-detail">
@@ -408,7 +386,7 @@
                         </ul>
                     </li>
                     <li class="flow-item-upper fade-up">
-                        <p class="flow-timeline">契約後1か月</p>
+                        <p class="flow-timeline">1週間後</p>
                         <img src="img/flow_suggestion.png" alt="">
                         <h3 class="flow-item-title">プラン提案・お見積り</h3>
                         <ul class="flow-item-detail">
@@ -416,7 +394,7 @@
                         </ul>
                     </li>
                     <li class="flow-item-upper fade-up">
-                        <p class="flow-timeline">テキストテキスト</p>
+                        <p class="flow-timeline">2週間後</p>
                         <img src="img/flow_kickoff.png" alt="">
                         <h3 class="flow-item-title">キックオフ・設計</h3>
                         <ul class="flow-item-detail">
@@ -428,21 +406,21 @@
                 </ol>
                 <ol class="flow-grid-bottom">
                     <li class="flow-item-bottom fade-up">
-                        <p class="flow-timeline">2か月以降</p>
-                        <img src="img/flow_report.png" alt="">
-                        <h3 class="flow-item-title">レポート・改善</h3>
-                        <ul class="flow-item-detail">
-                            <li>・反応の良い業種・テーマ・トークの整理</li>
-                            <li>・翌月以降の優先順位・打ち手の見直し</li>
-                        </ul>
-                    </li>
-                    <li class="flow-item-bottom fade-up">
-                        <p class="flow-timeline">テキストテキスト</p>
+                        <p class="flow-timeline">3週間後</p>
                         <img src="img/flow_start.png" alt="">
                         <h3 class="flow-item-title">稼働開始</h3>
                         <ul class="flow-item-detail">
                             <li>・架電・メール・オンライン商談など実行</li>
                             <li>・アポイント・商談機会の創出</li>
+                        </ul>
+                    </li>
+                    <li class="flow-item-bottom fade-up">
+                        <p class="flow-timeline">1か月半後</p>
+                        <img src="img/flow_report.png" alt="">
+                        <h3 class="flow-item-title">レポート・改善</h3>
+                        <ul class="flow-item-detail">
+                            <li>・反応の良い業種・テーマ・トークの整理</li>
+                            <li>・翌月以降の優先順位・打ち手の見直し</li>
                         </ul>
                     </li>
                 </ol>
@@ -526,20 +504,8 @@
                             <br>現状を整理しながら、
                             <br>改善の優先順位を一緒に考えます。
                         </p>
-                        <div class="cta-access-btn fade-up"><a href="#contact">無料相談はこちらから</a>
-                        <!-- From Uiverse.io by alexmaracinaru -->
-                            <button>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 74 74" height="34" width="34">
-                                    <circle stroke-width="5" stroke="white" r="35.5" cy="37" cx="37"></circle>
-                                    <path fill="white"
-                                        d="M25 37 H48 M48 37 L40 29 M48 37 L40 45"
-                                        stroke="currentColor"
-                                        stroke-width="5"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round">
-                                    </path>
-                                </svg>
-                            </button>
+                        <div>
+                            <a class="cta-access-btn fade-up" href="#contact">無料相談はこちらから &gt;</a>
                         </div>
                     </div>
                 </div>
@@ -565,21 +531,21 @@
                             <dd class="input-wrapper"><input type="text" name="phone"  placeholder="例） 000-0000-0000"></dd>                        
                             <dt><label for="mail">E-mail</label></dt>
                             <dd class="input-wrapper"><input type="text" name="mail"  placeholder="例） ○○.gmail.com"></dd>
-                            <dt><label for="company">会社名</label></dt>
+                            <dt><label class="optional-label"  for="company">会社名</label></dt>
                             <dd class="input-wrapper optional"><input type="text" name="company"  placeholder="例） ○○会社"></dd>
 
-                            <dt><label class="radio">お問い合わせ内容</label></dt>
+                            <dt><label class="radio optional-label">お問い合わせ内容</label></dt>
                                 <dd class="radio-wrapper">
-                                    <label class="radio">
+                                    <label class="radio optional-label">
                                         <input type="radio" name="contact-type" value="資料請求">資料請求
                                     </label>
-                                    <label class="radio">
+                                    <label class="radio optional-label">
                                         <input type="radio" name="contact-type" value="ビジネスのお問い合わせ">ビジネスのお問い合わせ
                                     </label>
-                                    <label class="radio">
+                                    <label class="radio optional-label">
                                         <input type="radio" name="contact-type" value="採用のお問い合わせ">採用のお問い合わせ
                                     </label>
-                                    <label class="radio">
+                                    <label class="radio optional-label">
                                         <input type="radio" name="contact-type" value="その他">その他
                                     </label>                            
                                 </dd>
@@ -601,7 +567,7 @@
                 <ul class="nav-list">
                     <li><a href="#feature">momentの特徴</a></li>
                     <li><a href="#voice">導入事例</a></li>
-                    <li class="btn"><a href="#contact">無料相談はこちら</a></li>
+                    <li><a  class="btn" href="#contact">無料相談はこちら</a></li>
                 </ul>
             </nav>
         </div>
