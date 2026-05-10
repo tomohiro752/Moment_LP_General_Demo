@@ -772,6 +772,7 @@ header.is-scrolled  .nav-list .btn:hover {
 .plan {
     margin-top: 80px;
     padding-inline: 4%;
+    text-align: center;
 }
 
 
@@ -781,6 +782,7 @@ header.is-scrolled  .nav-list .btn:hover {
 
 .plan-table-wrap {
     width: 100%;
+    margin-bottom: 24px;
 }
 
 .plan-table-frame {
@@ -910,6 +912,18 @@ tr td {
 td {
     width: 300px;
 }
+
+.plan-subtext-below {
+    font-size: 1.4rem;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    color: #00B7CE;
+    font-weight: bold;
+    padding: 8px 16px;
+    display: inline-block;
+}
+
 
 
 /* CTA */
